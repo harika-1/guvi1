@@ -10,17 +10,17 @@ import java.util.Scanner;
 {
 	public static void main (String[] args)
 	{
-		int n;
+		int num;
 		Scanner s=new Scanner(System.in);
 		System.out.println("enter the number you want to check:");
-		n=s.nextInt();
-		if(n%2==0)
+		num=s.nextInt();
+		if(num%2==0)
 		{
-			System.out.println("the given number "+n+" is Even");
+			System.out.println("Even");
 		}
 		else
 		{
-			System.out.println("the given number "+n+" is Odd");
+			System.out.println("Odd");
 		}
 	}
 }
